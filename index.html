@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>MPL Login Page</title>
+        <meta charset="utf-8">
+        <style>
+            form{
+                position: fixed;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+                background-color: rgb(29, 252, 159);
+                
+                              
+            }
+            body{
+                background-image: url('brown.jpg');
+                background-repeat: no-repeat;
+                background-attachment: fixed;
+                background-size: cover;
+                                
+            }
+            h1{
+                text-align: center;
+            }
+            .center {
+                margin: 0;
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                -ms-transform: translate(-50%, -50%);
+                transform: translate(-50%, -50%);
+            }
+
+            footer {
+                position: fixed;
+                left: 0;
+                bottom: 0;
+                width: 100%;
+                background-color: rgb(0, 89, 255);
+                color: white;
+                text-align: center;
+                opacity: 0.5;
+}
+        </style>
+   
+    </head>
+    <body>
+        <main>
+            <form action="/MPLHomePage.html" method="get">
+                <img src="MPL Logo.png" opacity="1"><br>
+                <h1 class="centered" >Player Login</h1>
+                <hr>
+                <table cellspacing="30">
+                    <tr>
+                    <td>
+                        <label for="uname"><strong>Player Name</strong></label>
+                    </td>
+                    <td>
+                        <input type="text" value="" required name="uname" id="uname"><br>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="pwd"><strong>Password</strong></label>
+                    </td>
+                    <td>
+                        <input type="password"  required value="" name="pwd"><br>
+                    </td>
+                </tr>
+                <tr>
+                    <td rowspan="2">
+                        <a href="MPLHomePage.html">Login</a>
+                    </td>
+                    <td>
+                        Still under construction
+                    </td>
+                </tr>
+                
+                </table>
+                <button class="center" onclick="alert('Happy News For MPL Fans\n MPL Season II will be resuming from\n 23 August 2020\n Stay safe and healthy')">Next Match Day Update</button>
+                <hr>    
+                
+            </form>
+        </main>
+        <footer>
+            <p>Copyright @ MPL 2020</p>
+        </footer>
+    </body>
+</html>
